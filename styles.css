@@ -1,0 +1,91 @@
+body {
+    background-color: #7b68ee;
+    font-family: 'DM Mono', serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    min-width: 350px;
+    color: #0F0A0A;
+}
+h1 {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 20px auto 0px;
+    font-size: 36px;
+}
+.eight-ball-parent {
+    position: relative;
+    width: 325px;
+    height: 325px;
+    margin: 30px auto 0;
+}
+.eight-ball {
+    border-radius: 50%;
+    position: absolute;
+}
+#eight-ball-bg {
+    background-color: #0F0A0A;
+    width: 300px;
+    height: 300px;
+    top: 15px;
+    /* box-shadow: 10px 10px 5px #0f0a0a56; */
+}
+#eight-ball-fg {
+    background-color: #F5EFED;
+    width: 150px;
+    height: 150px;
+    top: 90px;
+    left: 75px;
+}
+#eight-ball-num {
+    font-family: 'DM Mono', serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100px;
+    text-align: center;
+    margin-top: 10px;
+}
+/* project fonts  */
+/* .press-start-2p-regular {
+    font-family: "Press Start 2P", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+.dm-mono-light {
+    font-family: "DM Mono", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .dm-mono-regular {
+    font-family: "DM Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-mono-medium {
+    font-family: "DM Mono", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .dm-mono-light-italic {
+    font-family: "DM Mono", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .dm-mono-regular-italic {
+    font-family: "DM Mono", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .dm-mono-medium-italic {
+    font-family: "DM Mono", serif;
+    font-weight: 500;
+    font-style: italic;
+  } */
+
+  
