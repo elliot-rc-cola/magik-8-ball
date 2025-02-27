@@ -1,6 +1,13 @@
-# magik-8-ball
-Python app that tells your fortune
+# Magik 8 Ball
+The Magik 8 Ball is a two part project. 
+Part one:
+- A Python terminal program 
+Part two:
+- A browser based JavaScript program
 
-## future features
-create a loop in the program so you can ask more than one question without having to reset
-build the front end of the application (will put them together once I've learned about APIs and Django)
+Both accomplish the same purpose, telling ones forture through answering yes and no questions. 
+
+The browswer based version of the program was built using the logic from the Python program, but with the ability to loop.
+
+
+

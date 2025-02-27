@@ -4,27 +4,29 @@
         <meta chaset="utf-8">
         <meta name='viewport' content='width=device-width, initial-scale=1.0'/>
         <title>Magik 8 Ball</title>
-        <link rel="stylesheet" href="styles.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Press+Start+2P&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="./script.js" defer></script> 
     </head>
     <body>
-        <main>
-            <div class="eight-ball-parent">
-                <div class="eight-ball" id="eight-ball-bg"></div>
-                <div class="eight-ball" id="eight-ball-fg">
-                    <h1 id="eight-ball-num">8</h1>
-                </div>
+        <div class="eight-ball-parent">
+            <div class="eight-ball" id="eight-ball-shadow"></div>
+            <div class="eight-ball" id="eight-ball-bg"></div>
+            <div class="eight-ball" id="eight-ball-fg">
+                <div class="eight-ball" id="eight-ball-num">8</div>
             </div>
-            <div class="title">
-                <h1 class="title-head">Magik 8 Ball</h1>
-                <p class="title-desc">Your future awaits...</p> 
-            </div>
-            
-        </main>
-        <footer>
-            
-        </footer>
+        </div>
+        <div class="title">
+            <h1 id="title-head">Magik 8 Ball</h1>
+            <p id="title-desc">Your future awaits...</p> 
+        </div>
+        <div class="q-and-a" id="userInput">
+            <label for="question">Your Question: </label>
+            <input type="text" id="question" placeholder="Ask a yes or no question" />
+            <button type="button" id="submitBtn">Ask</button>
+        </div>
+        <div class="q-and-a" id="ballResponse" ></div>   
     </body>
 </html>

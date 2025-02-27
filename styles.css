@@ -1,11 +1,23 @@
+:root {
+  --purple: #7b68ee;
+  --black: #0f0a0a;
+  --white: #f5efed;
+  --green: #bdbf09;
+  --orange: #d96c06;
+}
+
 body {
-    background-color: #7b68ee;
+    background-color: var(--purple);
     font-family: 'DM Mono', serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
-    text-align: center;
+    color: var(--black);
     min-width: 350px;
-    color: #0F0A0A;
+}
+
+.title {
+  text-align: center;
+   
 }
 h1 {
     font-family: "Press Start 2P", serif;
@@ -14,78 +26,106 @@ h1 {
     margin: 20px auto 0px;
     font-size: 36px;
 }
+
 .eight-ball-parent {
     position: relative;
-    width: 325px;
-    height: 325px;
+    width: 225px;
+    height: 225px;
     margin: 30px auto 0;
 }
+
 .eight-ball {
     border-radius: 50%;
     position: absolute;
 }
+
 #eight-ball-bg {
-    background-color: #0F0A0A;
-    width: 300px;
-    height: 300px;
+    background-color: var(--black);
+    width: 200px;
+    height: 200px;
     top: 15px;
-    /* box-shadow: 10px 10px 5px #0f0a0a56; */
 }
+
 #eight-ball-fg {
-    background-color: #F5EFED;
-    width: 150px;
-    height: 150px;
-    top: 90px;
-    left: 75px;
+    background-color: var(--white);
+    width: 100px;
+    height: 100px;
+    top: 65px;
+    left: 50px;
 }
+
 #eight-ball-num {
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    left: 25px;
     font-family: 'DM Mono', serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 100px;
+    font-size: 50px;
     text-align: center;
-    margin-top: 10px;
 }
-/* project fonts  */
-/* .press-start-2p-regular {
-    font-family: "Press Start 2P", serif;
-    font-weight: 400;
-    font-style: normal;
-  }  
-.dm-mono-light {
-    font-family: "DM Mono", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .dm-mono-regular {
-    font-family: "DM Mono", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .dm-mono-medium {
-    font-family: "DM Mono", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .dm-mono-light-italic {
-    font-family: "DM Mono", serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .dm-mono-regular-italic {
-    font-family: "DM Mono", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .dm-mono-medium-italic {
-    font-family: "DM Mono", serif;
-    font-weight: 500;
-    font-style: italic;
-  } */
 
-  
+#eight-ball-shadow {
+  width: 150px;
+  height: 10px;
+  background-color: #272626;
+  opacity: 30%;
+  top: 207px;
+  left: 75px;
+}
+
+.q-and-a {
+  width: 500px;
+  margin: 0 auto;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 90%;
+  padding: 5px;
+  display: block;
+  font-family: 'DM Mono', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+button {
+  height: 30px;
+  display: block;
+  margin: 5px auto;
+  font-family: 'DM Mono', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#submitBtn {
+  width: 100px;
+  background-color: var(--orange);
+  color: var(--white);
+  border: 2px solid var(--green);
+}
+
+#ballResponse {
+  display: none;
+  height: 150px;
+  margin-top: 10px;
+  background-color: var(--white);
+}
+
+.response-text {
+  margin-left: 15px;
+}
+
+.response-text:first-of-type {
+  padding-top: 15px;
+}
+
+#resetBtn {
+  width: 200px;
+  background-color: var(--green);
+  border: 2px solid var(--orange);
+}
