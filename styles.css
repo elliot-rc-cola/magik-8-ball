@@ -13,6 +13,8 @@ body {
     font-style: normal;
     color: var(--black);
     min-width: 350px;
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 .title {
@@ -25,13 +27,14 @@ h1 {
     font-style: normal;
     margin: 20px auto 0px;
     font-size: 36px;
+    line-height: 1.2;
 }
 
 .eight-ball-parent {
     position: relative;
     width: 225px;
     height: 225px;
-    margin: 30px auto 0;
+    margin: 10% auto 0 25%;
 }
 
 .eight-ball {
@@ -76,12 +79,14 @@ h1 {
 }
 
 .q-and-a {
-  width: 500px;
+  width: 90%;
   margin: 0 auto;
 }
 
 label {
   margin-bottom: 10px;
+  display: block;
+  padding-left: 4%;
 }
 
 input {
@@ -91,6 +96,7 @@ input {
   font-family: 'DM Mono', serif;
   font-weight: 400;
   font-style: normal;
+  margin: 0 auto;
 }
 
 button {
